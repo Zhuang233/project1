@@ -9,7 +9,7 @@ open class Person(val name : String, val age : Int){
     }
 }
 
-class Student(val sex:String,name: String,age: Int):Person(name,age){
+class Student(val sex:String,name: String,age: Int):Person(name,age) , Study{
     // 主构造函数体
     init{
         println(name + " gender is" + sex)
@@ -18,6 +18,10 @@ class Student(val sex:String,name: String,age: Int):Person(name,age){
     // 次构造函数
     constructor():this("??","无名氏",0)
     constructor(name: String,age: Int):this("??",name,age)
+
+    override fun dohomework() {
+        println(name + "dohomework")
+    }
 
 }
 
@@ -30,4 +34,6 @@ fun main(){
     s2.eat()
     var s3 = Student("赫敏",16)
     s3.eat()
+    s3.dohomework()
+    s3.sleep()
 }

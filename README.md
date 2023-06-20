@@ -13,3 +13,4 @@ sudo add-apt-repository universe
 sudo add-apt-repository restricted
 sudo add-apt-repository multiverse 
 
+git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9

@@ -15,3 +15,9 @@ sudo add-apt-repository multiverse
 
 git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 toolchain
 https://bitbucket.org/UBERTC/aarch64-linux-android-4.9/get/78e5a7be6044.zip
+
+export ANDROID_AARCH64=/home/ubuntu/桌面/Toolchain/google_gcc/aarch64-linux-android-4.9/bin/
+export ARCH=arm64
+export SUBARCH=arm64
+export PATH=$PATH:$ANDROID_AARCH64
+export CROSS_COMPILE=aarch64-linux-android-

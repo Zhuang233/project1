@@ -14,3 +14,4 @@ sudo add-apt-repository restricted
 sudo add-apt-repository multiverse 
 
 git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 toolchain
+https://bitbucket.org/UBERTC/aarch64-linux-android-4.9/get/78e5a7be6044.zip
